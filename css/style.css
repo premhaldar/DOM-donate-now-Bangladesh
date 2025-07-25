@@ -6,9 +6,13 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
-.coin-icon {
+/* .coin-icon {
   background: linear-gradient(135deg, #d6d4d2, #dda84b);
-}
+} */
+ .coin img{
+  height: 80px;
+  width: 80px;
+ }
 .history-card {
   border-left: 4px solid #10b981;
   background: #f9fafb;
