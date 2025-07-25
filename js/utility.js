@@ -30,3 +30,22 @@ function addToHistory(amount, causeTitle, location, targetElementId){
     <p class="text-gray-500">Date : ${formattedDate}</p>`;
 
 }
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const blogButton = document.getElementById('blog');
+    if (blogButton) {
+        blogButton.addEventListener('click', function() {
+            window.location.href = 'blog.html';
+        });
+    }
+
+    const backButton = document.getElementById('btn-back');
+    if (backButton) {
+        backButton.addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+    }
+});
