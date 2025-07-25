@@ -1,0 +1,22 @@
+.donation-card {
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+}
+.donation-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+.coin-icon {
+  background: linear-gradient(135deg, #d6d4d2, #dda84b);
+}
+.history-card {
+  border-left: 4px solid #10b981;
+  background: #f9fafb;
+}
+.background{
+  background-color: #f0edeb;
+  height: min-content;
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+}
